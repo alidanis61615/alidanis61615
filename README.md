@@ -16,19 +16,19 @@ Trakya Üniversitesi **Mobil Teknolojileri (Ön Lisans)** bölümünden 2026 yı
 
 | Proje | Çözdüğü ihtiyaç | Teknik çalışma | İncele |
 | --- | --- | --- | --- |
-| **PaketKap** | Beslenme kayıtlarını ve kişisel hedefleri tek yerde takip etmek | Kalori/makro hesapları, SQLite, 7/30/90 günlük analiz, JSON yedek doğrulama | [Ekranlar ve kod](https://github.com/alidanis61615/PaketKap) · [Android APK](https://github.com/alidanis61615/PaketKap/releases/latest) · [Yedek/SQLite testleri](https://github.com/alidanis61615/PaketKap/tree/main/test) |
+| **Kalori Takip** | Beslenme kayıtlarını ve kişisel hedefleri tek yerde takip etmek | Kalori/makro hesapları, SQLite, 7/30/90 günlük analiz, JSON yedek doğrulama | [Ekranlar ve kod](https://github.com/alidanis61615/Kalori-Takip) · [Android APK](https://github.com/alidanis61615/Kalori-Takip/releases/latest) · [Yedek/SQLite testleri](https://github.com/alidanis61615/Kalori-Takip/tree/main/test) |
 | **TaskFlow** | Görevleri öncelik, kategori ve son tarihe göre düzenlemek | SQLite CRUD ve sürüm geçişleri, arama/filtreleme, kalıcı tema tercihi | [Ekranlar ve kod](https://github.com/alidanis61615/TaskFlow) · [Android APK](https://github.com/alidanis61615/TaskFlow/releases/latest) · [Ekran/SQLite testleri](https://github.com/alidanis61615/TaskFlow/tree/main/test) |
 | **OkuTrack** | Öğrencilerin okuma alışkanlıklarını kaydetmek ve analiz etmek | Öğrenci analizi, 7 günlük grafik, CSV raporu, JSON yedekleme | [Canlı demo](https://alidanis61615.github.io/Ogrenci-Okuma-Takip-Sistemi-/) · [Kaynak kodu](https://github.com/alidanis61615/Ogrenci-Okuma-Takip-Sistemi-) |
 
 ### Uygulamalardan gerçek ekranlar
 
 <p align="center">
-  <a href="https://github.com/alidanis61615/PaketKap"><img src="https://raw.githubusercontent.com/alidanis61615/PaketKap/main/Screenshot_20261012_185949.jpg" alt="PaketKap Android uygulamasında günlük beslenme özeti" width="200"></a>
+  <a href="https://github.com/alidanis61615/Kalori-Takip"><img src="https://raw.githubusercontent.com/alidanis61615/Kalori-Takip/main/Screenshot_20261012_185949.jpg" alt="Kalori Takip Android uygulamasında günlük beslenme özeti" width="200"></a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://github.com/alidanis61615/TaskFlow"><img src="https://raw.githubusercontent.com/alidanis61615/TaskFlow/main/light-theme.jpg" alt="TaskFlow Android uygulamasında görev listesi" width="200"></a>
 </p>
 
-<p align="center"><b>PaketKap</b> — Kalori ve beslenme takibi &nbsp; · &nbsp; <b>TaskFlow</b> — Görev yönetimi</p>
+<p align="center"><b>Kalori Takip</b> — Kalori ve beslenme takibi &nbsp; · &nbsp; <b>TaskFlow</b> — Görev yönetimi</p>
 
 ## Kullandığım teknolojiler
 
@@ -45,10 +45,10 @@ Trakya Üniversitesi **Mobil Teknolojileri (Ön Lisans)** bölümünden 2026 yı
 
 ## Kod incelemesine başlangıç
 
-- **Veri saklama ve hesaplama:** [PaketKap modelleri, SQLite ve JSON yedekleme](https://github.com/alidanis61615/PaketKap/blob/main/lib/services/store.dart); [bağımsız trend hesapları ve testleri](https://github.com/alidanis61615/PaketKap/blob/main/test/nutrition_trends_test.dart).
+- **Veri saklama ve hesaplama:** [Kalori Takip modelleri, SQLite ve JSON yedekleme](https://github.com/alidanis61615/Kalori-Takip/blob/main/lib/services/store.dart); [bağımsız trend hesapları ve testleri](https://github.com/alidanis61615/Kalori-Takip/blob/main/test/nutrition_trends_test.dart).
 - **Görev yönetimi:** [TaskFlow modeli, veritabanı ve uygulama akışları](https://github.com/alidanis61615/TaskFlow/tree/main/lib).
 - **Web ve raporlama:** [OkuTrack kaynak kodu](https://github.com/alidanis61615/Ogrenci-Okuma-Takip-Sistemi-/blob/main/core.js); demoda **Örnek verileri yükle** seçeneğiyle grafik ve öğrenci analizini deneyebilirsiniz.
 
-[PaketKap kontrolleri](https://github.com/alidanis61615/PaketKap/actions) · [TaskFlow kontrolleri](https://github.com/alidanis61615/TaskFlow/actions) · [OkuTrack kontrolleri](https://github.com/alidanis61615/Ogrenci-Okuma-Takip-Sistemi-/actions)
+[Kalori Takip kontrolleri](https://github.com/alidanis61615/Kalori-Takip/actions) · [TaskFlow kontrolleri](https://github.com/alidanis61615/TaskFlow/actions) · [OkuTrack kontrolleri](https://github.com/alidanis61615/Ogrenci-Okuma-Takip-Sistemi-/actions)
 
 **[LinkedIn üzerinden iletişime geçebilirsiniz.](https://www.linkedin.com/in/ali-danis-3657b2435/)**
