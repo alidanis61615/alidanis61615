@@ -16,17 +16,19 @@ Trakya Üniversitesi **Mobil Teknolojileri (Ön Lisans)** bölümünden 2026 yı
 
 | Proje | Çözdüğü ihtiyaç | Teknik çalışma | İncele |
 | --- | --- | --- | --- |
-| **Kalori Takip** | Beslenme kayıtlarını ve kişisel hedefleri tek yerde takip etmek | Kalori/makro hesapları, SQLite, 7/30/90 günlük analiz, JSON yedek doğrulama | [Ekranlar ve kod](https://github.com/alidanis61615/Kalori-Takip) · [Android APK](https://github.com/alidanis61615/Kalori-Takip/releases/latest) · [Yedek/SQLite testleri](https://github.com/alidanis61615/Kalori-Takip/tree/main/test) |
-| **TaskFlow** | Görevleri öncelik, kategori ve son tarihe göre düzenlemek | SQLite CRUD ve sürüm geçişleri, arama/filtreleme, kalıcı tema tercihi | [Ekranlar ve kod](https://github.com/alidanis61615/TaskFlow) · [Android APK](https://github.com/alidanis61615/TaskFlow/releases/latest) · [Ekran/SQLite testleri](https://github.com/alidanis61615/TaskFlow/tree/main/test) |
+| **Kalori Takip** | Beslenme kayıtlarını ve kişisel hedefleri tek yerde takip etmek | Kalori/makro hesapları, SQLite, 7/30/90 günlük analiz, JSON yedek doğrulama | [Ekranlar ve kod](https://github.com/alidanis61615/Kalori-Takip) · [Android APK ve demo](https://github.com/alidanis61615/Kalori-Takip/releases/latest) · [Yedek/SQLite testleri](https://github.com/alidanis61615/Kalori-Takip/tree/main/test) |
+| **TaskFlow** | Görevleri öncelik, kategori ve son tarihe göre düzenlemek | SQLite CRUD ve sürüm geçişleri, arama/filtreleme, kalıcı tema tercihi | [Ekranlar ve kod](https://github.com/alidanis61615/TaskFlow) · [Android APK ve demo](https://github.com/alidanis61615/TaskFlow/releases/latest) · [Ekran/SQLite testleri](https://github.com/alidanis61615/TaskFlow/tree/main/test) |
 | **OkuTrack** | Öğrencilerin okuma alışkanlıklarını kaydetmek ve analiz etmek | Öğrenci analizi, 7 günlük grafik, CSV raporu, JSON yedekleme | [Canlı demo](https://alidanis61615.github.io/Ogrenci-Okuma-Takip-Sistemi-/) · [Kaynak kodu](https://github.com/alidanis61615/Ogrenci-Okuma-Takip-Sistemi-) |
 
-### Uygulamalardan gerçek ekranlar
+### Uygulamalardan dolu ekranlar
 
 <p align="center">
-  <a href="https://github.com/alidanis61615/Kalori-Takip"><img src="https://raw.githubusercontent.com/alidanis61615/Kalori-Takip/main/Screenshot_20261012_185949.jpg" alt="Kalori Takip Android uygulamasında günlük beslenme özeti" width="200"></a>
+  <a href="https://github.com/alidanis61615/Kalori-Takip"><img src="https://raw.githubusercontent.com/alidanis61615/Kalori-Takip/main/docs/media/kalori-gun-ozeti.png" alt="Kalori Takip Android uygulamasında günlük beslenme özeti" width="200"></a>
   &nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/alidanis61615/TaskFlow"><img src="https://raw.githubusercontent.com/alidanis61615/TaskFlow/main/light-theme.jpg" alt="TaskFlow Android uygulamasında görev listesi" width="200"></a>
+  <a href="https://github.com/alidanis61615/TaskFlow"><img src="https://raw.githubusercontent.com/alidanis61615/TaskFlow/main/docs/media/taskflow-light.png" alt="TaskFlow Android uygulamasında görev listesi" width="200"></a>
 </p>
+
+<p align="center">Android emülatöründe çalışan uygulamalar · Örnek verilerle oluşturulmuş ekranlar</p>
 
 <p align="center"><b>Kalori Takip</b> — Kalori ve beslenme takibi &nbsp; · &nbsp; <b>TaskFlow</b> — Görev yönetimi</p>
 
@@ -39,7 +41,7 @@ Trakya Üniversitesi **Mobil Teknolojileri (Ön Lisans)** bölümünden 2026 yı
 | Veri | SQLite, SharedPreferences, localStorage, JSON |
 | Geliştirme ve doğrulama | Git, GitHub, GitHub Actions, Flutter testleri |
 
-**Kod kalitesi:** Model, veritabanı ve ekran kodları ayrı dosyalarda; mobil projelerde gerçek SQLite testleri, OkuTrack’ta 22 davranış testi bulunuyor. Analiz ve testler GitHub Actions üzerinde çalışıyor.
+**Kod kalitesi:** Model, veritabanı ve ekran kodları ayrı dosyalarda; mobil projelerde SQLite ve arayüz testleri, OkuTrack’ta 22 davranış testi bulunuyor. Android emülatöründe yeniden açılışta verilerin korunması ayrıca kontrol ediliyor. Analiz ve testler GitHub Actions üzerinde çalışıyor.
 
 **Diğer çalışmalarım:** [Kotlin hesap makinesi](https://github.com/alidanis61615/index/tree/main/projects/android-calculator), [C# / Unity 2D platform oyunu](https://github.com/alidanis61615/index/tree/main/projects/unity-2d-platformer), Java temelleri ve WordPress.
 
